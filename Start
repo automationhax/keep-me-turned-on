@@ -1,0 +1,21 @@
+set oShell = CreateObject("WScript.Shell")
+Dim Excel
+Set Excel = Wscript.CreateObject("Excel.Application")
+Dim x,y,myString
+
+
+Do Until Hour(Now())=17
+
+x= Int((500-100+1)* Rnd+100)
+
+y= Int((500-100+1)* Rnd+100)
+
+Excel.ExecuteExcel4Macro "CALL(""user32"", ""SetCursorPos"", ""JJJ"", """&x&""","""&y&""")"
+oShell.Sendkeys "+{F10}"
+Wscript.Sleep 10000
+
+Loop
+Excel.Quit
+Set Excel = Nothing
+Set oShell = Nothing
+MsgBox(Hour(Now()))
