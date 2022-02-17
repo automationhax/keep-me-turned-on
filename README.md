@@ -1,5 +1,5 @@
 # keep-me-turned-on
-Keeps windows computer screen turned on
+Automation script to keep windows computer screen turned on
 
 # Step 1 - Copy Script
 `Navigate to "Start" file in this project`
