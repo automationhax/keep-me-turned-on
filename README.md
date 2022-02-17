@@ -8,7 +8,8 @@ Keeps windows computer screen turned on
 `Copy Start file content and paste into text file on Desktop (or any folder)`
 
 # Step 3 - Save Text File as .vbs file
-`Save text file with File name as "Start.vbs" and Save as type as "All types (*.*)". The file should look blue (vbs file color). If not try to save the text file again but this time delete the prefilled value in File name field completey and retype in "Start.vbs" for the File name`
+`Save text file with File name as "Start.vbs" and Save as type as "All types (*.*)". 
+The file should look blue (vbs file color).`
 
 # Step 4 - DONT SKIP (Shows how to stop the script)
 `Create a shortcut on Desktop and paste this in as the path: 
