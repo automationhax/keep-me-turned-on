@@ -16,7 +16,7 @@ The file should look blue (vbs file color).`
 "C:\Windows\System32\taskkill.exe /IM wscript.exe /f". 
 Double clicking this shortcut will stop the automation.`
 
-`Or right click on the Taskbar on Desktop > open Task Manager > `
+`Or right click on the Taskbar on Desktop > open Task Manager > Right click and close the wscript.exe process `
 
 # Step 5 - Start Script
 `Double click Start.vbs to start the automation script`
