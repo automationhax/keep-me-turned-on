@@ -1,4 +1,4 @@
-# keep-me-turned-on
+# keep-computer-screen-turned-on
 Automation script to keep windows computer screen turned on. In the background the script creates an Excel macro to move the mouse and uses Shell Script to right click on the screen.
 
 # Step 1 - Copy Script
